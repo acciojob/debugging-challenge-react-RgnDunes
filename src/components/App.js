@@ -5,9 +5,9 @@ const App = () => {
   let [count, setCount] = useState(0);
 
   return (
-    <div className="ball">
+    <div class="ball">
       <h1
-        className="count" // Ensure the "count" class is applied to the h1 element
+        class="count"
         onDoubleClick={() => {
           alert("cant edit it");
         }}
@@ -15,7 +15,7 @@ const App = () => {
         {count}
       </h1>
       <button
-        className="increment-button" // Add a class name to the button element
+        class="increment-button"
         onClick={() => {
           setCount(count + 1);
         }}
